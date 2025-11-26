@@ -669,7 +669,7 @@ export default function SecureApp() {
                 {/* Footer */}
                 <div className="mt-12 pt-6 border-t border-zinc-800 text-[10px] text-zinc-600 font-mono uppercase flex justify-between items-end">
                     <div>
-                        <p>LERNO</p>
+                        <p>Warden</p>
                         <p>Focusing on Building What Matters</p>
                     </div>
                     <div className="text-right">
