@@ -126,5 +126,5 @@ app.get(/.*/, (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Secure Backend running on http://localhost:${port}`);
+  console.log(`Secure Backend running on port: ${port}`);
 });

@@ -15,7 +15,7 @@ WORKDIR /app
 
 # Copy server files
 COPY server/package*.json ./
-RUN npm i --only=production
+RUN npm i --omit=dev
 
 COPY server/ ./
 
