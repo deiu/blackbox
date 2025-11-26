@@ -383,7 +383,7 @@ export default function SecureApp() {
                         <div className="md:col-span-4 flex flex-col gap-6 h-full">
                             <div className="space-y-2">
                                 <h2 className="text-3xl font-bold text-white uppercase leading-none tracking-tighter">
-                                    {mode === 'CREATE' ? 'Engage Command For Transmission' : 'Incoming Encrypted Transmission'}
+                                    {mode === 'CREATE' ? 'Prepare Data For Transmission' : 'Incoming Encrypted Transmission'}
                                 </h2>
                                 <div className="w-12 h-1 bg-orange-600"></div>
                             </div>
@@ -608,7 +608,7 @@ export default function SecureApp() {
                                                 </div>
                                             ) : (
                                                 <StripedButton onClick={handleDecrypt} disabled={status === 'DECRYPTING'}>
-                                                    {status === 'DECRYPTING' ? 'Deciphering...' : 'Engage Decryption Key'}
+                                                    {status === 'DECRYPTING' ? 'Deciphering...' : 'Process Decryption Key'}
                                                 </StripedButton>
                                             )}
                                         </div>
