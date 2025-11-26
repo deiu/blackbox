@@ -109,7 +109,7 @@ const TechnicalHeader = () => (
             <div className="flex flex-col gap-1">
                 <h1 className="text-2xl text-zinc-100 font-bold tracking-tighter flex items-center gap-2">
                     <Shield className="w-6 h-6 text-orange-600" />
-                    BLACKBOX_SECURE
+                    DROPBOX_SECURE
                 </h1>
                 <div className="flex items-center gap-4 mt-2">
                     <span className="flex items-center gap-1"><span className="w-2 h-2 bg-orange-600 animate-pulse"></span> SYSTEM ONLINE</span>
