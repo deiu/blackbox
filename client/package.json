@@ -10,12 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@helia/unixfs": "^6.0.3",
     "@tailwindcss/postcss": "^4.1.17",
     "autoprefixer": "^10.4.22",
     "axios": "^1.13.2",
-    "blockstore-core": "^6.1.1",
-    "helia": "^6.0.11",
     "lucide-react": "^0.554.0",
     "postcss": "^8.5.6",
     "react": "^18.3.1",
