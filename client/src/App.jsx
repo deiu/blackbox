@@ -389,7 +389,7 @@ export default function SecureApp() {
                             </div>
 
                             <div className="text-xs text-zinc-500 space-y-1 uppercase tracking-wider">
-                                <p>*** LERNO // SECURE OPS - {new Date().getFullYear()} ***</p>
+                                <p>*** CLIENT-SIDE ENCRYPTION // TEMPORARY STORAGE - {new Date().getFullYear()} ***</p>
                                 <p>*** STATUS: {status} ***</p>
                             </div>
 
